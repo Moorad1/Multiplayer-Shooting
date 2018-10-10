@@ -1,4 +1,4 @@
-var socket = io.connect("http://localhost:4000");
+var socket = io.connect("https://multiplayershootinggame-bojsenskeq.now.sh/");
 canvas = document.getElementById("canvas")
 c = canvas.getContext("2d")
 c.translate(0.5, 0.5);
